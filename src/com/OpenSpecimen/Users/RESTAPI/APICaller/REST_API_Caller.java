@@ -1,5 +1,4 @@
-package com.kaustubh.openspecimen.users.RESTAPIcaller.RESTAPICaller;
-
+package com.OpenSpecimen.Users.RESTAPI.APICaller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +7,8 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import com.kaustubh.openspecimen.users.RESTAPIcaller.RESTAPICaller.JsonWriter.WriteJson;
-import com.kaustubh.openspecimen.users.RESTAPIcaller.RequestResources.RequestResource;
+import com.OpenSpecimen.Users.RESTAPI.RequestResource;
+import com.OpenSpecimen.Users.RESTAPI.JsonWriter.WriteJson;
 
 public class REST_API_Caller extends RequestResource {
 

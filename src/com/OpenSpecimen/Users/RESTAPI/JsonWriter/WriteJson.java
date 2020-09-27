@@ -1,4 +1,4 @@
-package com.kaustubh.openspecimen.users.RESTAPIcaller.RESTAPICaller.JsonWriter;
+package com.OpenSpecimen.Users.RESTAPI.JsonWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;

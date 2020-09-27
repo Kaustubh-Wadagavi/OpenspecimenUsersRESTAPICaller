@@ -1,4 +1,4 @@
-package com.kaustubh.openspecimen.users.RESTAPIcaller.RequestResources;
+package com.OpenSpecimen.Users.RESTAPI;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Base64;
 
-import com.kaustubh.openspecimen.users.RESTAPIcaller.RESTAPICaller.REST_API_Caller;
+import com.OpenSpecimen.Users.RESTAPI.APICaller.REST_API_Caller;
 
 public class RequestResource {
 
@@ -62,5 +62,4 @@ public class RequestResource {
 			e.printStackTrace();
 		}
 	}
-
 }
